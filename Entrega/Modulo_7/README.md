@@ -46,6 +46,12 @@ No se registran enlaces externos en la documentación disponible.
 
 La retroalimentación que solicita la ficha de modelos de IA, el cronograma y la publicación en GitHub se conserva en `../../Evidencias/Transcripcion_Retroalimentacion_Profe.md`.
 
+La ficha de modelos pide datos de RAM y GPU/aceleradora. Como evidencia del entorno de trabajo se dispone de la captura del consumo de la PC durante el trabajo de OpenCode, conservada en [`Evidencias/capturas/consumo_pc_opencode.png`](../../Evidencias/capturas/consumo_pc_opencode.png):
+
+![Consumo de la PC durante el trabajo de OpenCode](../../Evidencias/capturas/consumo_pc_opencode.png)
+
+La imagen se publica sin alterar; no se transcriben cifras que no sea posible verificar en este entorno.
+
 ## 9. Estado de avance
 
 **Pendiente de verificación.** Existe documento final en PDF y un anexo solicitado por el profesor; faltan requisitos confirmados y revisión manual de la estructura interna del PDF.

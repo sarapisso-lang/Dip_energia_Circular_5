@@ -18,7 +18,7 @@ El archivo `Ficha_Tecnica/ficha_tecnica.pdf` documenta:
 - Corpus documental indexado: normativa colombiana, dataset INNOVATOR y memoria técnica del prototipo.
 - Instrucción base del sistema para mitigar alucinaciones.
 - Banco de pruebas de seis casos, incluidas dos pruebas de negativa correcta.
-- Reporte de consumo de recursos computacionales y espacio reservado para la captura de evidencia del administrador de tareas.
+- Reporte de consumo de recursos computacionales y espacio reservado para la captura de evidencia del administrador de tareas. La captura aportada se publica fuera de esta carpeta, en `Evidencias/capturas/consumo_pc_opencode.png`, para no añadir un segundo archivo a la entrega conjunta.
 
 Su título original es *Ficha técnica y bitácora de inferencia — Asistente RAG local (Módulo 5)*. El contenido se conserva sin modificación; únicamente se adoptó el nombre de archivo requerido en la estructura del repositorio.
 
@@ -51,7 +51,11 @@ No se registran enlaces externos en la ficha técnica. Las herramientas menciona
 
 ## 8. Evidencias
 
-La bitácora de inferencia incluye seis pruebas y un espacio para captura del administrador de tareas. Dicha captura no se encuentra en el repositorio; el espacio reservado está en `../../Evidencias/capturas/`.
+La bitácora de inferencia incluye seis pruebas y un espacio para captura del administrador de tareas. La captura aportada por el estudiante se muestra aquí y se conserva en [`Evidencias/capturas/consumo_pc_opencode.png`](../../Evidencias/capturas/consumo_pc_opencode.png):
+
+![Captura del consumo de la PC durante el trabajo de OpenCode](../../Evidencias/capturas/consumo_pc_opencode.png)
+
+La imagen se publica sin alterar y no se transcriben cifras de CPU, RAM o GPU que no sea posible verificar en este entorno. Tampoco se ha modificado el PDF original para insertarla en el espacio reservado.
 
 El documento complementario solicitado por el profesor — ficha de modelos de IA y cronograma en formato Excel — se conserva en `../Modulo_7/anexos/Ficha_Tecnica_Modelos_IA_y_Cronograma.xlsx` para no incorporar un segundo entregable en esta carpeta conjunta.
 
@@ -62,5 +66,5 @@ El documento complementario solicitado por el profesor — ficha de modelos de I
 ## 10. Actividades pendientes
 
 - Confirmar con el profesor que la ficha PDF del asistente RAG es el único archivo esperado en la carpeta conjunta, o que debe complementarse con el documento Excel de modelos de IA y cronograma.
-- Incorporar la captura del administrador de tareas a `Evidencias/capturas/` si se requiere como soporte de las métricas de CPU, RAM y VRAM.
+- Confirmar con el profesor si la captura enlazada en `Evidencias/capturas/consumo_pc_opencode.png` es suficiente como soporte de las métricas de CPU, RAM y VRAM, o si debe insertarse dentro del PDF.
 - Verificar que las versiones de herramientas consignadas en la ficha coincidan con el entorno final utilizado.

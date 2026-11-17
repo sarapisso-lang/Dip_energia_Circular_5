@@ -28,7 +28,7 @@ Nota: el documento `Formulacion_Problema_Proyecto_Integrador-v2.docx` registra u
 - Economía circular e indicadores: cinco KPI documentados en el entregable del módulo 4.
 - Asistente local: arquitectura RAG offline documentada en la ficha técnica de los módulos 5 y 6.
 
-El alcance detallado, incluido lo que aún no cuenta con evidencia, está en [`Documentacion_General/alcance_proyecto.md`](Documentacion_General/alcance_proyecto.md).
+El alcance detallado, incluido lo que aún no cuenta con evidencia, está en [`Documentacion_General/alcance_proyecto.md`](Documentacion_General/alcance_proyecto.md). La comparación entre lo exigido por el programa y lo que ya está publicado se resume en [`Documentacion_General/evaluacion_entregables.md`](Documentacion_General/evaluacion_entregables.md). Las herramientas de IA declaradas por el estudiante se registran en [`Documentacion_General/herramientas_ia_utilizadas.md`](Documentacion_General/herramientas_ia_utilizadas.md).
 
 ## Organización del repositorio
 
@@ -46,7 +46,10 @@ Diplomado-energia-circular/
 ├── Documentacion_General/
 │   ├── alcance_proyecto.md
 │   ├── inventario_entregables.md
-│   └── estado_avance.md
+│   ├── estado_avance.md
+│   ├── evaluacion_entregables.md
+│   ├── herramientas_ia_utilizadas.md
+│   └── programa_diplomado.pdf
 └── Evidencias/
     ├── capturas/
     ├── Transcripcion_Retroalimentacion_Profe.md
@@ -81,18 +84,19 @@ Los criterios usados para asignar estos estados están en [`Documentacion_Genera
 
 ## Tecnologías y herramientas identificadas
 
-Identificadas en los archivos originales, sin ampliación:
+Identificadas en los archivos originales y en la declaración del estudiante, sin ampliación:
 
 - **Documentación:** DOCX, PDF, Markdown.
 - **Datos:** XLSX (dataset INNOVATOR, laboratorio P4.1, ficha de modelos de IA y cronograma).
 - **Análisis:** notebook de Google Colab (`web.ipynb`) con pandas, numpy, scikit-learn, TensorFlow/Keras, seaborn y Plotly.
 - **Visualización:** HTML, CSS y JavaScript vanilla, con Plotly embebido; configuración de despliegue en Vercel (`vercel.json`) y acceso público en [dashboard-meteorologico-ivory.vercel.app](https://dashboard-meteorologico-ivory.vercel.app/).
 - **IA local:** AnythingLLM Desktop y Ollama, modelos Llama-3-8B-Instruct / Mistral-7B cuantizados, embeddings `nomic-embed-text`, bases vectoriales LanceDB / ChromaDB (según la ficha técnica).
+- **IA de apoyo declarada:** Google Gemini Notebook, ChatGPT, Perplexity, Claude y OpenCode; detalle en [`herramientas_ia_utilizadas.md`](Documentacion_General/herramientas_ia_utilizadas.md).
 - **Control de versiones:** Git. Rama principal `main`.
 
 ## Instrucciones de navegación
 
-1. Comience por el [inventario de entregables](Documentacion_General/inventario_entregables.md): indica qué archivo corresponde a cada módulo y qué está pendiente.
+1. Comience por el [inventario de entregables](Documentacion_General/inventario_entregables.md): indica qué archivo corresponde a cada módulo y qué está pendiente. Para un juicio global, consulte la [evaluación de entregables](Documentacion_General/evaluacion_entregables.md).
 2. Abra el README de la carpeta `Entrega/` que desee revisar; cada uno enumera los archivos reales y las actividades pendientes.
 3. Para abrir el dashboard desplegado, haga clic en [dashboard-meteorologico-ivory.vercel.app](https://dashboard-meteorologico-ivory.vercel.app/). Para examinarlo sin conexión, abra `Entrega/Modulo_2/dashboard/index.html` en un navegador, o sirva la carpeta con `python -m http.server 8000` (si Python está disponible) y visite `http://localhost:8000`.
 4. El notebook `Entrega/Modulo_2/analisis/web.ipynb` espera el archivo Excel en la ruta de Colab indicada en su primera celda de carga; no se modificó su contenido.
@@ -100,7 +104,10 @@ Identificadas en los archivos originales, sin ampliación:
 ## Evidencias
 
 - `Evidencias/Transcripcion_Retroalimentacion_Profe.md`: transcripción de la retroalimentación docente que originó la ficha técnica, el cronograma y la publicación en GitHub.
-- `Evidencias/capturas/`: espacio reservado para capturas de pantalla (por ejemplo, consumo de CPU/RAM/GPU mencionado en la ficha técnica). Actualmente sin archivos.
+- `Evidencias/capturas/consumo_pc_opencode.png`: captura aportada por el estudiante del consumo de su PC durante el trabajo de OpenCode. Responde al espacio de evidencia del administrador de tareas previsto en la ficha técnica de los módulos 5 y 6 y al soporte de recursos de la ficha de modelos de IA. No se transcriben cifras no verificables.
+
+![Consumo de la PC durante el trabajo de OpenCode](Evidencias/capturas/consumo_pc_opencode.png)
+
 - `Evidencias/enlaces.md`: registro de enlaces, incluida la URL pública del dashboard desplegado en Vercel.
 
 No se han incorporado credenciales, tokens ni claves API. Los estados y observaciones se actualizarán cuando el estudiante aporte las evidencias faltantes.

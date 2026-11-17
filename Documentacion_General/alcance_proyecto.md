@@ -43,6 +43,6 @@ Evidencias en `Evidencias/`: transcripción de la retroalimentación docente, ca
 1. Vigencia de la redacción del objetivo general (con o sin variables edáficas).
 2. Correspondencia real entre la ficha técnica PDF de RAG y la ficha Excel de modelos de IA solicitada por el profesor.
 3. Presencia de árbol de causas/efectos y árbol de objetivos como documentos separados.
-4. Existencia de un informe de auditoría energética y de una matriz de consumo como entregables propios del módulo 2.
+4. Existencia de un informe de auditoría energética y de la cartera priorizada de medidas como entregables propios del módulo 2 (el programa usa ese término; antes se registró como matriz de consumo).
 5. Estructura interna del PDF final (capítulos, resumen, referencias), que no pudo extraerse con las herramientas disponibles.
 6. Requisitos completos del módulo 7, cuya explicación quedó incompleta en la grabación.

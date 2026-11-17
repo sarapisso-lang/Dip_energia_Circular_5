@@ -13,7 +13,7 @@ El dataset original contiene 2.999 registros horarios entre el 7 de junio y el 1
 ## 3. Entregables exigidos
 
 1. Informe de auditoría energética en PDF.
-2. Matriz de consumo energético.
+2. Cartera priorizada de medidas (término usado en el programa; antes se registró como matriz de consumo energético).
 3. Conjunto de datos utilizado.
 4. Código de análisis.
 5. Notebook de Jupyter o Google Colab.
@@ -64,10 +64,10 @@ La fuente de datos se conserva íntegramente en `datasets/`. El dashboard funcio
 
 ## 9. Estado de avance
 
-**Pendiente de evidencias.** Hay dataset, notebook, libro de laboratorio, dashboard y enlace público verificado; faltan el informe de auditoría en PDF y una matriz de consumo energético identificada como tal.
+**Pendiente de evidencias.** Hay dataset, notebook, libro de laboratorio, dashboard y enlace público verificado; faltan el informe de auditoría en PDF y la cartera priorizada de medidas exigida por el programa (antes registrada como matriz de consumo).
 
 ## 10. Actividades pendientes
 
 - Incorporar el informe de auditoría energética en PDF.
-- Incorporar o designar formalmente la matriz de consumo energético; el libro de laboratorio P4.1 contiene datos de consumo, pero no está rotulado como la matriz exigida.
+- Incorporar la cartera priorizada de medidas exigida por el programa; el libro de laboratorio P4.1 contiene datos de consumo, pero no está rotulado como esa cartera.
 - Confirmar si la ficha técnica de instrumentación del módulo 3 debe vincularse también a la auditoría energética.

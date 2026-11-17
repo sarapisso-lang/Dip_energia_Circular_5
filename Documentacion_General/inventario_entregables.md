@@ -14,10 +14,10 @@ Inventario construido a partir de los archivos originales inspeccionados. Los es
 | Módulo 1 | Árbol de objetivos | — | No encontrado | No se identificó como documento independiente. |
 | Módulo 2 | Dataset original | `Entrega/Modulo_2/datasets/BASE_DATOS_Estacion_Meteorologica_INNOVATOR_10102024.xlsx` | Completo | 2.999 registros horarios; nombre original conservado en el README del módulo. |
 | Módulo 2 | Notebook de análisis | `Entrega/Modulo_2/analisis/web.ipynb` | Completo | 36 celdas; no se modificó. |
-| Módulo 2 | Laboratorio P4.1 | `Entrega/Modulo_2/analisis/Laboratorio_P4_1_Monitoreo_Agrometeorologico-v2.xlsx` | Completo | Contiene balance de masa/energía y serie foliar; no rotulado como matriz de consumo. |
+| Módulo 2 | Laboratorio P4.1 | `Entrega/Modulo_2/analisis/Laboratorio_P4_1_Monitoreo_Agrometeorologico-v2.xlsx` | Completo | Contiene balance de masa/energía y serie foliar; no rotulado como cartera priorizada de medidas. |
 | Módulo 2 | Dashboard | `Entrega/Modulo_2/dashboard/` | Completo | Aplicación estática con 11 pestañas, datos y Plotly embebidos. |
 | Módulo 2 | Informe de auditoría energética | — | No encontrado | No se identificó PDF con ese título. |
-| Módulo 2 | Matriz de consumo energética | — | Pendiente de evidencias | Existen datos de consumo dentro del libro P4.1, pero no un documento designado como matriz. |
+| Módulo 2 | Cartera priorizada de medidas (antes “matriz de consumo”) | — | Pendiente de evidencias | El programa usa este término. Existen datos de consumo en el libro P4.1, pero no un documento designado como cartera priorizada. |
 | Módulo 2 | Enlace público al dashboard | [dashboard-meteorologico-ivory.vercel.app](https://dashboard-meteorologico-ivory.vercel.app/) | Completo | Despliegue en Vercel verificado; enlace clicable documentado en el README del módulo 2, en el README del dashboard y en `Evidencias/enlaces.md`. |
 | Módulo 3 | Ficha técnica de instrumentación | `Entrega/Modulo_3/seleccion_equipos/Ficha_Tecnica_Estacion_Meteorologica_INNOVATOR.pdf` | Completo | Ocho equipos y sistema solar; no cubre todos los apartados del módulo. |
 | Módulo 3 | Documento PDF integral del módulo | — | Pendiente de verificación | Requiere los catorce apartados indicados por el profesor. |
@@ -31,9 +31,12 @@ Inventario construido a partir de los archivos originales inspeccionados. Los es
 | Módulo 7 | Documento final | `Entrega/Modulo_7/monografia/Proyecto_Integrador_Agrometeorologico_Final.pdf` | Completo | Versión `Final` identificada; estructura interna pendiente de revisión manual. |
 | Módulo 7 | Ficha de modelos de IA y cronograma | `Entrega/Modulo_7/anexos/Ficha_Tecnica_Modelos_IA_y_Cronograma.xlsx` | Completo | Solicitada por el profesor como documento aparte; se archiva como anexo para respetar la regla de entrega conjunta de los módulos 5 y 6. |
 | Módulo 7 | Capítulos / referencias separadas | — | Pendiente de verificación | La explicación del profesor quedó incompleta en la transcripción. |
-| General | Transcripción de retroalimentación | `Evidencias/Transcripcion_Retroalimentacion_Profe.md` | Completo | Soporte de los requerimientos adicionales y de la publicación en GitHub. |
-| General | Capturas de evidencia | `Evidencias/capturas/` | Pendiente de evidencias | Carpeta reservada; sin archivos. |
+| General | Transcripción de retroalimentación | `Evidencias/Transcripcion_Retroalimentacion_Profe.md` | Completo | Idéntica a la transcripción adjunta por el estudiante; soporta los requerimientos adicionales y la publicación en GitHub. |
+| General | Captura de consumo del equipo | `Evidencias/capturas/consumo_pc_opencode.png` | Completo | PNG de 1887x1020, 111.238 bytes, hash SHA256 verificado. Declarada por el estudiante como consumo de su PC durante el trabajo de OpenCode. No se transcriben cifras no legibles en este entorno. |
 | General | Enlaces externos | `Evidencias/enlaces.md` | Completo | Registro de enlaces conocidos y pendientes. |
+| General | Evaluación de entregables | `Documentacion_General/evaluacion_entregables.md` | Completo | Comparación entre el programa PDF, la retroalimentación y el estado real del repositorio. |
+| General | Herramientas de IA declaradas | `Documentacion_General/herramientas_ia_utilizadas.md` | Completo | Registro de Gemini Notebook, ChatGPT, Perplexity, Claude y OpenCode según declaración del estudiante. |
+| General | Programa del diplomado | `Documentacion_General/programa_diplomado.pdf` | Completo | Copia íntegra del PDF aportado; hash SHA256 verificado. |
 
 ## Versiones originales no incorporadas
 

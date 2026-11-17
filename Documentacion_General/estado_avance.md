@@ -18,10 +18,10 @@ Fecha de la revisión: 17 de noviembre de 2026.
 | Entrega | Estado | Fundamento |
 |---|---|---|
 | Módulo 1 | Pendiente de verificación | Mapa, matriz y formulación presentes. Sin árbol de causas/efectos ni árbol de objetivos identificados. |
-| Módulo 2 | Pendiente de evidencias | Dataset, notebook, laboratorio, dashboard y URL pública del despliegue presentes. Faltan informe de auditoría y matriz de consumo designada. |
+| Módulo 2 | Pendiente de evidencias | Dataset, notebook, laboratorio, dashboard y URL pública del despliegue presentes. Faltan informe de auditoría y cartera priorizada de medidas (antes registrada como matriz de consumo). |
 | Módulo 3 | Pendiente de verificación | Ficha de instrumentación presente. Sin documento PDF integral con los catorce apartados. |
 | Módulo 4 | Pendiente de evidencias | Cinco KPI documentados. Sin mapa circular, LCI, huella de carbono ni modelo de intervención. |
-| Módulos 5 y 6 | Completo | Ficha técnica PDF presente como único entregable de la carpeta conjunta. |
+| Módulos 5 y 6 | Completo | Ficha técnica PDF presente como único entregable de la carpeta conjunta; captura de recursos enlazada desde `Evidencias/capturas/` sin añadir archivos a esta carpeta. |
 | Módulo 7 | Pendiente de verificación | Documento final y anexo presentes. Requisitos académicos incompletos en la transcripción. |
 
 ## 3. Decisiones de organización
@@ -38,7 +38,7 @@ Fecha de la revisión: 17 de noviembre de 2026.
 - Completar los entregables marcados como no encontrados o pendientes de evidencias.
 - Confirmar los requisitos del módulo 7 y complementar bibliografía y citas, según la recomendación docente.
 - Revisar la coherencia entre los documentos que mencionan un sensor de pH edáfico y la ficha técnica de ocho equipos, que no lo incluye.
-- Aportar capturas de evidencia de recursos computacionales si existen.
+- Confirmar si la captura de recursos publicada en `Evidencias/capturas/consumo_pc_opencode.png` debe insertarse dentro del PDF de la ficha técnica o si basta con el enlace y la imagen en los README.
 
 ## 5. Observaciones sobre el estado de publicación
 
