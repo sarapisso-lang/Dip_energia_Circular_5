@@ -86,7 +86,7 @@ Identificadas en los archivos originales, sin ampliación:
 - **Documentación:** DOCX, PDF, Markdown.
 - **Datos:** XLSX (dataset INNOVATOR, laboratorio P4.1, ficha de modelos de IA y cronograma).
 - **Análisis:** notebook de Google Colab (`web.ipynb`) con pandas, numpy, scikit-learn, TensorFlow/Keras, seaborn y Plotly.
-- **Visualización:** HTML, CSS y JavaScript vanilla, con Plotly embebido; configuración de despliegue en Vercel (`vercel.json`). No se encontró documentada una URL pública funcional.
+- **Visualización:** HTML, CSS y JavaScript vanilla, con Plotly embebido; configuración de despliegue en Vercel (`vercel.json`) y acceso público en [dashboard-meteorologico-ivory.vercel.app](https://dashboard-meteorologico-ivory.vercel.app/).
 - **IA local:** AnythingLLM Desktop y Ollama, modelos Llama-3-8B-Instruct / Mistral-7B cuantizados, embeddings `nomic-embed-text`, bases vectoriales LanceDB / ChromaDB (según la ficha técnica).
 - **Control de versiones:** Git. Rama principal `main`.
 
@@ -94,13 +94,13 @@ Identificadas en los archivos originales, sin ampliación:
 
 1. Comience por el [inventario de entregables](Documentacion_General/inventario_entregables.md): indica qué archivo corresponde a cada módulo y qué está pendiente.
 2. Abra el README de la carpeta `Entrega/` que desee revisar; cada uno enumera los archivos reales y las actividades pendientes.
-3. Para examinar el dashboard sin conexión, abra `Entrega/Modulo_2/dashboard/index.html` en un navegador, o sirva la carpeta con `python -m http.server 8000` (si Python está disponible) y visite `http://localhost:8000`.
+3. Para abrir el dashboard desplegado, haga clic en [dashboard-meteorologico-ivory.vercel.app](https://dashboard-meteorologico-ivory.vercel.app/). Para examinarlo sin conexión, abra `Entrega/Modulo_2/dashboard/index.html` en un navegador, o sirva la carpeta con `python -m http.server 8000` (si Python está disponible) y visite `http://localhost:8000`.
 4. El notebook `Entrega/Modulo_2/analisis/web.ipynb` espera el archivo Excel en la ruta de Colab indicada en su primera celda de carga; no se modificó su contenido.
 
 ## Evidencias
 
 - `Evidencias/Transcripcion_Retroalimentacion_Profe.md`: transcripción de la retroalimentación docente que originó la ficha técnica, el cronograma y la publicación en GitHub.
 - `Evidencias/capturas/`: espacio reservado para capturas de pantalla (por ejemplo, consumo de CPU/RAM/GPU mencionado en la ficha técnica). Actualmente sin archivos.
-- `Evidencias/enlaces.md`: registro de enlaces y de la URL del dashboard, cuando esté disponible.
+- `Evidencias/enlaces.md`: registro de enlaces, incluida la URL pública del dashboard desplegado en Vercel.
 
 No se han incorporado credenciales, tokens ni claves API. Los estados y observaciones se actualizarán cuando el estudiante aporte las evidencias faltantes.

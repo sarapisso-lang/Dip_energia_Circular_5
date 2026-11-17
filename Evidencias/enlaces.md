@@ -11,9 +11,9 @@
 
 | Recurso | Ubicación / URL | Estado |
 |---|---|---|
-| Dashboard meteorológico INNOVATOR (11 pestañas) | `Entrega/Modulo_2/dashboard/index.html` | Disponible localmente; funciona sin conexión. |
+| Dashboard meteorológico INNOVATOR (11 pestañas) | [Abrir dashboard desplegado](https://dashboard-meteorologico-ivory.vercel.app/) · `Entrega/Modulo_2/dashboard/index.html` | Disponible en línea y localmente; la versión local funciona sin conexión. |
 | Servidor local sugerido | `http://localhost:8000` | Instrucción documentada en el README del dashboard. Requiere un servidor estático. |
-| Despliegue en Vercel | Sin URL documentada | Existe `dashboard/vercel.json`, pero ningún archivo registra el dominio público. Pendiente de confirmar. |
+| Despliegue en Vercel | [dashboard-meteorologico-ivory.vercel.app](https://dashboard-meteorologico-ivory.vercel.app/) | Verificado: responde y muestra el dashboard de 11 pestañas. Un clic redirige directamente a la plataforma. |
 
 ## Documentación de referencia
 

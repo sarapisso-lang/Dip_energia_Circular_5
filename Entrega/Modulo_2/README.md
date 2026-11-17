@@ -8,6 +8,8 @@ Conservar y organizar la fuente de datos, el procesamiento analítico y la visua
 
 El dataset original contiene 2.999 registros horarios entre el 7 de junio y el 10 de octubre de 2024, con variables de humedad foliar, lluvia, radiación, temperatura, humedad relativa, viento y punto de rocío. El notebook desarrolla limpieza, ingeniería de características, análisis exploratorio, regresión, clasificación, clustering y series temporales. El dashboard web reproduce el análisis en 11 pestañas y entrena modelos ligeros en el navegador.
 
+**Acceso directo:** [Abrir dashboard desplegado en Vercel](https://dashboard-meteorologico-ivory.vercel.app/)
+
 ## 3. Entregables exigidos
 
 1. Informe de auditoría energética en PDF.
@@ -51,7 +53,10 @@ La limpieza registra cabecera en la fila 2, fechas `dd/MM/yy`, decimales con com
 
 ## 7. Enlaces externos
 
-No se encontró una URL pública funcional del dashboard. El archivo `vercel.json` indica configuración para Vercel, pero ningún documento registra el dominio resultante. El acceso disponible es local: abrir `dashboard/index.html` o servir la carpeta con un servidor estático.
+- **Acceso directo al dashboard:** [dashboard-meteorologico-ivory.vercel.app](https://dashboard-meteorologico-ivory.vercel.app/)
+- **Despliegue en Vercel:** [Ver despliegue en la plataforma](https://dashboard-meteorologico-ivory.vercel.app/)
+
+Ambos enlaces son clicables y apuntan al mismo despliegue; un clic redirige directamente a la plataforma. El enlace fue verificado y muestra el dashboard de 11 pestañas. El acceso local se mantiene en `dashboard/index.html` o sirviendo la carpeta con un servidor estático.
 
 ## 8. Evidencias
 
@@ -59,11 +64,10 @@ La fuente de datos se conserva íntegramente en `datasets/`. El dashboard funcio
 
 ## 9. Estado de avance
 
-**Pendiente de evidencias.** Hay dataset, notebook, libro de laboratorio y dashboard; faltan el informe de auditoría en PDF, una matriz de consumo energético identificada como tal y el enlace público al tablero.
+**Pendiente de evidencias.** Hay dataset, notebook, libro de laboratorio, dashboard y enlace público verificado; faltan el informe de auditoría en PDF y una matriz de consumo energético identificada como tal.
 
 ## 10. Actividades pendientes
 
 - Incorporar el informe de auditoría energética en PDF.
 - Incorporar o designar formalmente la matriz de consumo energético; el libro de laboratorio P4.1 contiene datos de consumo, pero no está rotulado como la matriz exigida.
-- Publicar el dashboard y documentar su URL en `../Evidencias/enlaces.md` y en este README.
 - Confirmar si la ficha técnica de instrumentación del módulo 3 debe vincularse también a la auditoría energética.

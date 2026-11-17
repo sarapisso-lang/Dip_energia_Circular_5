@@ -18,7 +18,7 @@ Inventario construido a partir de los archivos originales inspeccionados. Los es
 | Módulo 2 | Dashboard | `Entrega/Modulo_2/dashboard/` | Completo | Aplicación estática con 11 pestañas, datos y Plotly embebidos. |
 | Módulo 2 | Informe de auditoría energética | — | No encontrado | No se identificó PDF con ese título. |
 | Módulo 2 | Matriz de consumo energética | — | Pendiente de evidencias | Existen datos de consumo dentro del libro P4.1, pero no un documento designado como matriz. |
-| Módulo 2 | Enlace público al dashboard | — | Pendiente de evidencias | Solo se encontró `vercel.json`; no hay URL documentada. |
+| Módulo 2 | Enlace público al dashboard | [dashboard-meteorologico-ivory.vercel.app](https://dashboard-meteorologico-ivory.vercel.app/) | Completo | Despliegue en Vercel verificado; enlace clicable documentado en el README del módulo 2, en el README del dashboard y en `Evidencias/enlaces.md`. |
 | Módulo 3 | Ficha técnica de instrumentación | `Entrega/Modulo_3/seleccion_equipos/Ficha_Tecnica_Estacion_Meteorologica_INNOVATOR.pdf` | Completo | Ocho equipos y sistema solar; no cubre todos los apartados del módulo. |
 | Módulo 3 | Documento PDF integral del módulo | — | Pendiente de verificación | Requiere los catorce apartados indicados por el profesor. |
 | Módulo 3 | Cálculos de dimensionamiento e inversión | — | No encontrado | No se generaron valores nuevos. |

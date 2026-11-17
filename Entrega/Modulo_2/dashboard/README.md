@@ -4,6 +4,13 @@ Réplica web autónoma del dashboard de 11 pestañas construido con Gradio en
 `web.ipynb`. Es una página estática: no necesita Python, servidor ni conexión a
 internet (Plotly y los datos están incluidos en el proyecto).
 
+## Acceso en línea
+
+- **Acceso directo al dashboard:** [dashboard-meteorologico-ivory.vercel.app](https://dashboard-meteorologico-ivory.vercel.app/)
+- **Despliegue en Vercel:** [Ver despliegue en la plataforma](https://dashboard-meteorologico-ivory.vercel.app/)
+
+Ambos enlaces apuntan al mismo despliegue; un clic redirige directamente a la plataforma.
+
 ## Cómo abrirla
 
 Haz doble clic en `index.html` o arrástralo a cualquier navegador moderno

@@ -36,7 +36,7 @@ Evidencias en `Evidencias/`: transcripción de la retroalimentación docente, ca
 - No se generan entregables adicionales para los módulos 5 y 6.
 - No se incorporan versiones intermedias de documentos cuando ya está identificada una versión final o consolidada; esas versiones permanecen en el equipo de origen y se listan como no incorporadas en el inventario.
 - No se incluyen instaladores, entornos virtuales, credenciales ni archivos temporales.
-- No se afirma que existe un dashboard publicado: solo se encontró su configuración de despliegue y la versión local.
+- No se generó una versión nueva del dashboard: se conserva la versión local y se documenta el despliegue ya existente en [dashboard-meteorologico-ivory.vercel.app](https://dashboard-meteorologico-ivory.vercel.app/).
 
 ## 5. Información que requiere validación
 
