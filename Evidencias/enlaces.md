@@ -5,7 +5,7 @@
 | Recurso | URL | Estado |
 |---|---|---|
 | Perfil de GitHub del estudiante | `https://github.com/jhosecuero-hue` | Verificado. |
-| Repositorio GitHub `Diplomado energia circular` | Pendiente de creación | Nombre corregido por el estudiante; se confirmará después de la autenticación y publicación. |
+| Repositorio GitHub `Diplomado-energia-circular` (nombre solicitado: `Diplomado energia circular`) | https://github.com/jhosecuero-hue/Diplomado-energia-circular | Público; creado para que los profesores puedan revisarlo. Rama `main` subida. GitHub convirtió los espacios del nombre solicitado en guiones. |
 
 ## Dashboard
 

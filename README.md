@@ -2,7 +2,7 @@
 
 Repositorio de documentación, análisis, desarrollo técnico y evidencias del proyecto integrador del Diplomado en Energía Circular Inteligente 5.0 (Unicomfacauca / SENA Tecnoparque Nodo Popayán / Empresa INNOVATOR).
 
-> **Estado de publicación:** repositorio preparado localmente. La URL de GitHub se incorporará cuando se complete la autenticación y la publicación. Nombre previsto del repositorio: **`Diplomado energia circular`**.
+> **Estado de publicación:** repositorio **público**, disponible en https://github.com/jhosecuero-hue/Diplomado-energia-circular (rama `main`). GitHub normalizó el nombre solicitado «Diplomado energia circular» al identificador `Diplomado-energia-circular` en la URL.
 
 ## Descripción
 
@@ -33,7 +33,7 @@ El alcance detallado, incluido lo que aún no cuenta con evidencia, está en [`D
 ## Organización del repositorio
 
 ```text
-Diplomado energia circular/
+Diplomado-energia-circular/
 ├── README.md
 ├── .gitignore
 ├── Entrega/

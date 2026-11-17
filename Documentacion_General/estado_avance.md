@@ -35,8 +35,6 @@ Fecha de la revisión: 17 de noviembre de 2026.
 
 ## 4. Pendientes globales
 
-- Autenticar GitHub y publicar el repositorio privado **`Diplomado energia circular`** en la rama `main`.
-- Añadir la URL definitiva del repositorio en el README principal y en `Evidencias/enlaces.md`.
 - Completar los entregables marcados como no encontrados o pendientes de evidencias.
 - Confirmar los requisitos del módulo 7 y complementar bibliografía y citas, según la recomendación docente.
 - Revisar la coherencia entre los documentos que mencionan un sensor de pH edáfico y la ficha técnica de ocho equipos, que no lo incluye.
@@ -44,4 +42,6 @@ Fecha de la revisión: 17 de noviembre de 2026.
 
 ## 5. Observaciones sobre el estado de publicación
 
-La publicación no se realizó durante la organización local porque no se detectó autenticación disponible: `gh` no está instalado, no hay credenciales Git configuradas, no hay llaves SSH ni sesión iniciada en el navegador. El repositorio queda listo para configurar remoto y hacer `push` una vez provista la autorización.
+La publicación se completó mediante autenticación web de GitHub CLI con la cuenta `jhosecuero-hue`. El repositorio se creó inicialmente como privado y, por indicación expresa del estudiante para que los profesores puedan revisarlo, se cambió a **público**.
+
+GitHub no admite espacios en los identificadores de repositorio: el nombre solicitado «Diplomado energia circular» quedó registrado como `Diplomado-energia-circular`. URL definitiva: https://github.com/jhosecuero-hue/Diplomado-energia-circular. La rama `main` fue subida y está configurada para seguir a `origin/main`.
