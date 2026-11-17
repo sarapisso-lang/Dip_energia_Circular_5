@@ -33,7 +33,7 @@ El alcance detallado, incluido lo que aún no cuenta con evidencia, está en [`D
 ## Organización del repositorio
 
 ```text
-proyecto-integrador-diplomado/
+Diplomado energia circular/
 ├── README.md
 ├── .gitignore
 ├── Entrega/
