@@ -35,7 +35,7 @@ Fecha de la revisión: 17 de noviembre de 2026.
 
 ## 4. Pendientes globales
 
-- Autenticar GitHub y publicar el repositorio privado en la rama `main`.
+- Autenticar GitHub y publicar el repositorio privado **`Diplomado energia circular`** en la rama `main`.
 - Añadir la URL definitiva del repositorio en el README principal y en `Evidencias/enlaces.md`.
 - Completar los entregables marcados como no encontrados o pendientes de evidencias.
 - Confirmar los requisitos del módulo 7 y complementar bibliografía y citas, según la recomendación docente.

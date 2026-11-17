@@ -5,7 +5,7 @@
 | Recurso | URL | Estado |
 |---|---|---|
 | Perfil de GitHub del estudiante | `https://github.com/jhosecuero-hue` | Verificado. |
-| Repositorio GitHub `proyecto-integrador-diplomado` | `https://github.com/jhosecuero-hue/proyecto-integrador-diplomado` | Previsto; se confirmará después de la publicación. No existía como repositorio público al revisar. |
+| Repositorio GitHub `Diplomado energia circular` | Pendiente de creación | Nombre corregido por el estudiante; se confirmará después de la autenticación y publicación. |
 
 ## Dashboard
 
