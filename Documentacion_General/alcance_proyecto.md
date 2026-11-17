@@ -14,9 +14,10 @@ El objetivo general consignado en el documento consolidado del módulo 1 es desa
 - **Energía:** panel fotovoltaico de 20 Wp, regulador MPPT y batería LiFePO4 de 12,8 V / 6 Ah; consumo registrado de 0,338 Wh por trama.
 - **Datos:** 2.999 registros horarios entre junio y octubre de 2024.
 - **Análisis:** notebook de Colab con limpieza, EDA, regresión, clasificación, clustering y series temporales.
-- **Visualización:** dashboard estático de 11 pestañas con datos embebidos y modelos ejecutados en el navegador.
+- **Visualización:** dashboard estático de 11 pestañas con datos embebidos y modelos ejecutados en el navegador; despliegue público verificado.
 - **IA local:** asistente RAG sin conexión, documentado en la ficha técnica de los módulos 5 y 6.
-- **Indicadores:** cinco KPI con fórmula, unidad y meta; su línea base y comparación antes/después están pendientes en varios casos.
+- **Indicadores:** cinco KPI con fórmula, unidad y meta; los campos sin valores en el original no se completaron.
+- **Bibliografía:** compendio complementario en `Entrega/Modulo_7/referencias/`, transcrito de documentos originales, con mapa de citas sugeridas.
 
 ## 3. Alcance del repositorio
 
@@ -26,7 +27,9 @@ Documentos de apoyo:
 
 - `alcance_proyecto.md`: este archivo.
 - `inventario_entregables.md`: correspondencia entre entrega, archivo y estado.
-- `estado_avance.md`: criterios de estado, pendientes y decisiones de organización.
+- `estado_avance.md`: criterios de estado, decisiones de organización y observaciones finales.
+- `evaluacion_entregables.md`: comparación entre programa, retroalimentación y entregas.
+- `herramientas_ia_utilizadas.md`: declaración de las herramientas de IA empleadas.
 
 Evidencias en `Evidencias/`: transcripción de la retroalimentación docente, carpeta de capturas y registro de enlaces.
 
@@ -36,13 +39,16 @@ Evidencias en `Evidencias/`: transcripción de la retroalimentación docente, ca
 - No se generan entregables adicionales para los módulos 5 y 6.
 - No se incorporan versiones intermedias de documentos cuando ya está identificada una versión final o consolidada; esas versiones permanecen en el equipo de origen y se listan como no incorporadas en el inventario.
 - No se incluyen instaladores, entornos virtuales, credenciales ni archivos temporales.
+- No se conservan carpetas vacías ni marcadores `.gitkeep`.
 - No se generó una versión nueva del dashboard: se conserva la versión local y se documenta el despliegue ya existente en [dashboard-meteorologico-ivory.vercel.app](https://dashboard-meteorologico-ivory.vercel.app/).
+- No se modificó el PDF final para insertar citas; estas se entregan como documento complementario.
 
 ## 5. Información que requiere validación
 
 1. Vigencia de la redacción del objetivo general (con o sin variables edáficas).
 2. Correspondencia real entre la ficha técnica PDF de RAG y la ficha Excel de modelos de IA solicitada por el profesor.
 3. Presencia de árbol de causas/efectos y árbol de objetivos como documentos separados.
-4. Existencia de un informe de auditoría energética y de la cartera priorizada de medidas como entregables propios del módulo 2 (el programa usa ese término; antes se registró como matriz de consumo).
-5. Estructura interna del PDF final (capítulos, resumen, referencias), que no pudo extraerse con las herramientas disponibles.
-6. Requisitos completos del módulo 7, cuya explicación quedó incompleta en la grabación.
+4. Estructura interna del PDF final (capítulos, resumen, referencias), que no pudo extraerse con las herramientas disponibles.
+5. Requisitos completos del módulo 7, cuya explicación quedó incompleta en la grabación.
+
+Si el profesor solicita citas dentro del PDF, el mapa de `Entrega/Modulo_7/referencias/bibliografia_y_citas.md` sirve como guía para esa revisión manual.

@@ -1,8 +1,8 @@
-# Módulo 2 — Auditoría energética y análisis de datos
+# Módulo 2 — Dashboard y despliegue
 
 ## 1. Objetivo
 
-Conservar y organizar la fuente de datos, el procesamiento analítico y la visualización desarrollados a partir de la serie temporal real de la estación meteorológica INNOVATOR, de modo que el profesor pueda verificar el análisis sin reconstruirlo.
+Conservar la fuente de datos, el procesamiento analítico y la visualización desarrollados a partir de la serie temporal real de la estación meteorológica INNOVATOR, y dejar constancia del despliegue público del dashboard, que es lo solicitado por el profesor para este módulo.
 
 ## 2. Descripción del contenido
 
@@ -10,26 +10,21 @@ El dataset original contiene 2.999 registros horarios entre el 7 de junio y el 1
 
 **Acceso directo:** [Abrir dashboard desplegado en Vercel](https://dashboard-meteorologico-ivory.vercel.app/)
 
-## 3. Entregables exigidos
+## 3. Entregables exigidos según la retroalimentación docente
 
-1. Informe de auditoría energética en PDF.
-2. Cartera priorizada de medidas (término usado en el programa; antes se registró como matriz de consumo energético).
-3. Conjunto de datos utilizado.
-4. Código de análisis.
-5. Notebook de Jupyter o Google Colab.
-6. Tablero de indicadores.
-7. Enlaces funcionales al dashboard.
+1. Dashboard construido sobre los datos reales de la estación.
+2. Despliegue del dashboard con enlace público funcional.
+
+El dataset, el notebook y el libro de laboratorio P4.1 se conservan como soporte verificable del análisis; no se presentan como entregables adicionales exigidos por el profesor.
 
 ## 4. Estructura de carpetas
 
 ```text
 Modulo_2/
 ├── README.md
-├── informe_auditoria/    Sin evidencia identificada (.gitkeep)
-├── matriz_consumo/       Sin documento independiente (.gitkeep)
-├── datasets/             Fuente de datos original
-├── analisis/             Notebook y libro de laboratorio P4.1
-└── dashboard/            Aplicación web estática y su documentación
+├── datasets/    Fuente de datos original
+├── analisis/    Notebook y libro de laboratorio P4.1
+└── dashboard/   Aplicación web estática y su documentación
 ```
 
 ## 5. Relación de archivos existentes
@@ -64,10 +59,8 @@ La fuente de datos se conserva íntegramente en `datasets/`. El dashboard funcio
 
 ## 9. Estado de avance
 
-**Pendiente de evidencias.** Hay dataset, notebook, libro de laboratorio, dashboard y enlace público verificado; faltan el informe de auditoría en PDF y la cartera priorizada de medidas exigida por el programa (antes registrada como matriz de consumo).
+**Completo.** El dashboard está construido sobre la serie real, desplegado en Vercel y verificado mediante su enlace público. La documentación y el código local se conservan sin modificación.
 
-## 10. Actividades pendientes
+## 10. Cierre
 
-- Incorporar el informe de auditoría energética en PDF.
-- Incorporar la cartera priorizada de medidas exigida por el programa; el libro de laboratorio P4.1 contiene datos de consumo, pero no está rotulado como esa cartera.
-- Confirmar si la ficha técnica de instrumentación del módulo 3 debe vincularse también a la auditoría energética.
+No se registran acciones adicionales para este módulo conforme a la retroalimentación recibida.

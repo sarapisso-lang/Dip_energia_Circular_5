@@ -1,6 +1,6 @@
 # Inventario de entregables
 
-Inventario construido a partir de los archivos originales inspeccionados. Los estados describen la existencia y verificación local del archivo, no una calificación académica.
+Inventario construido a partir de los archivos originales inspeccionados y de las aclaraciones del estudiante. Los estados describen la existencia y verificación local del archivo, no una calificación académica.
 
 | Entrega | Entregable | Archivo | Estado | Observaciones |
 |---|---|---|---|---|
@@ -14,27 +14,26 @@ Inventario construido a partir de los archivos originales inspeccionados. Los es
 | Módulo 1 | Árbol de objetivos | — | No encontrado | No se identificó como documento independiente. |
 | Módulo 2 | Dataset original | `Entrega/Modulo_2/datasets/BASE_DATOS_Estacion_Meteorologica_INNOVATOR_10102024.xlsx` | Completo | 2.999 registros horarios; nombre original conservado en el README del módulo. |
 | Módulo 2 | Notebook de análisis | `Entrega/Modulo_2/analisis/web.ipynb` | Completo | 36 celdas; no se modificó. |
-| Módulo 2 | Laboratorio P4.1 | `Entrega/Modulo_2/analisis/Laboratorio_P4_1_Monitoreo_Agrometeorologico-v2.xlsx` | Completo | Contiene balance de masa/energía y serie foliar; no rotulado como cartera priorizada de medidas. |
-| Módulo 2 | Dashboard | `Entrega/Modulo_2/dashboard/` | Completo | Aplicación estática con 11 pestañas, datos y Plotly embebidos. |
-| Módulo 2 | Informe de auditoría energética | — | No encontrado | No se identificó PDF con ese título. |
-| Módulo 2 | Cartera priorizada de medidas (antes “matriz de consumo”) | — | Pendiente de evidencias | El programa usa este término. Existen datos de consumo en el libro P4.1, pero no un documento designado como cartera priorizada. |
+| Módulo 2 | Laboratorio P4.1 | `Entrega/Modulo_2/analisis/Laboratorio_P4_1_Monitoreo_Agrometeorologico-v2.xlsx` | Completo | Contiene balance de masa/energía y serie foliar; soporte del análisis. |
+| Módulo 2 | Dashboard | `Entrega/Modulo_2/dashboard/` | Completo | Aplicación estática con 11 pestañas, datos y Plotly embebidos. Requisito principal del módulo según el profesor. |
 | Módulo 2 | Enlace público al dashboard | [dashboard-meteorologico-ivory.vercel.app](https://dashboard-meteorologico-ivory.vercel.app/) | Completo | Despliegue en Vercel verificado; enlace clicable documentado en el README del módulo 2, en el README del dashboard y en `Evidencias/enlaces.md`. |
-| Módulo 3 | Ficha técnica de instrumentación | `Entrega/Modulo_3/seleccion_equipos/Ficha_Tecnica_Estacion_Meteorologica_INNOVATOR.pdf` | Completo | Ocho equipos y sistema solar; no cubre todos los apartados del módulo. |
-| Módulo 3 | Documento PDF integral del módulo | — | Pendiente de verificación | Requiere los catorce apartados indicados por el profesor. |
-| Módulo 3 | Cálculos de dimensionamiento e inversión | — | No encontrado | No se generaron valores nuevos. |
-| Módulo 4 | Indicadores KPI | `Entrega/Modulo_4/indicadores_KPI/Indicadores_de_Impacto_Proyecto_Integrador-v2.docx` | Completo | Cinco indicadores con fórmula, unidad y meta. |
-| Módulo 4 | Mapa de economía circular | — | No encontrado | — |
-| Módulo 4 | Inventario del ciclo de vida | — | No encontrado | — |
-| Módulo 4 | Estimación de huella de carbono | — | No encontrado | No se estimó por falta de información verificable. |
-| Módulo 4 | Modelo de intervención | — | No encontrado | — |
+| Módulo 3 | Ficha técnica de instrumentación | `Entrega/Modulo_3/seleccion_equipos/Ficha_Tecnica_Estacion_Meteorologica_INNOVATOR.pdf` | Completo | Ocho equipos y sistema solar; soporte conservado del módulo. |
+| Módulo 3 | Entregables del módulo | — | Completo | El estudiante confirmó que los entregables ya están en la ubicación en que los entregó. No se generaron cálculos nuevos. |
+| Módulo 4 | Indicadores KPI | `Entrega/Modulo_4/indicadores_KPI/Indicadores_de_Impacto_Proyecto_Integrador-v2.docx` | Completo | Cinco indicadores con fórmula, unidad y meta; soporte conservado del módulo. |
+| Módulo 4 | Entregables del módulo | — | Completo | El estudiante confirmó que los entregables ya están en la ubicación en que los entregó. No se elaboraron mapas ni estimaciones supuestas. |
 | Módulos 5 y 6 | Ficha técnica (entrega conjunta) | `Entrega/Modulo_5_y_6/Ficha_Tecnica/ficha_tecnica.pdf` | Completo | Original: `Ficha_Tecnica_Asistente_RAG_Local_Modulo5.pdf`. Único archivo de la carpeta además del README. |
-| Módulo 7 | Documento final | `Entrega/Modulo_7/monografia/Proyecto_Integrador_Agrometeorologico_Final.pdf` | Completo | Versión `Final` identificada; estructura interna pendiente de revisión manual. |
+| Módulo 7 | Documento final | `Entrega/Modulo_7/monografia/Proyecto_Integrador_Agrometeorologico_Final.pdf` | Completo | Versión `Final` identificada; no se modificó. |
 | Módulo 7 | Ficha de modelos de IA y cronograma | `Entrega/Modulo_7/anexos/Ficha_Tecnica_Modelos_IA_y_Cronograma.xlsx` | Completo | Solicitada por el profesor como documento aparte; se archiva como anexo para respetar la regla de entrega conjunta de los módulos 5 y 6. |
-| Módulo 7 | Capítulos / referencias separadas | — | Pendiente de verificación | La explicación del profesor quedó incompleta en la transcripción. |
+| Módulo 7 | Bibliografía y citas | `Entrega/Modulo_7/referencias/bibliografia_y_citas.md` | Completo | Fuentes transcritas de los originales y mapa de citas sugeridas. El PDF final no se modificó. |
+| Módulo 7 | Fuente: estado del arte general | `Entrega/Modulo_7/referencias/Estado_del_Arte_Innovator_Terminado_2026.docx` | Completo | SHA256 `6C543E58A92767F056DD090946CE79C4BF9AD8599DA6C9F7CCD54D4E6806D0FF`. |
+| Módulo 7 | Fuente: estado del arte actualizado | `Entrega/Modulo_7/referencias/01_ACTUALIZADO_Actividad_1_Estado_del_Arte_Sistema_Hidrometeorologico.docx` | Completo | SHA256 `4B87691032925AB646AEAE01041D316A5625D7107E3E35784BC17109397DCD13`. |
+| Módulo 7 | Fuente: guía del sensor | `Entrega/Modulo_7/referencias/02_Guia_Creacion_Sensor_Multiparametrico_Temperatura_pH.docx` | Completo | SHA256 `72F16AA228819FD59032A466F067EF035AB3DF3BE4200E5275980C3B2FE3C741`. |
+| Módulo 7 | Fuente: medición de lluvia | `Entrega/Modulo_7/referencias/Investigacion_Completa_Medicion_de_Lluvia_Innovator_2026.docx` | Completo | SHA256 `B2A1CA248C1C1A2C623628C1F9A4A175935907F1A60A2F1747CBDCEEFC79FA9D`. |
+| Módulo 7 | Fuente: formulación orientadora | `Entrega/Modulo_7/referencias/Formulacion_del_problema_orientador_Diplomado_Energia_Circular_Inteligente_5_0.docx` | Completo | SHA256 `77D346FD215222416230408234184429D7D27D4C93B7D1A483874B2D8FF44CFE`. |
 | General | Transcripción de retroalimentación | `Evidencias/Transcripcion_Retroalimentacion_Profe.md` | Completo | Idéntica a la transcripción adjunta por el estudiante; soporta los requerimientos adicionales y la publicación en GitHub. |
 | General | Captura de consumo del equipo | `Evidencias/capturas/consumo_pc_opencode.png` | Completo | PNG de 1887x1020, 111.238 bytes, hash SHA256 verificado. Declarada por el estudiante como consumo de su PC durante el trabajo de OpenCode. No se transcriben cifras no legibles en este entorno. |
-| General | Enlaces externos | `Evidencias/enlaces.md` | Completo | Registro de enlaces conocidos y pendientes. |
-| General | Evaluación de entregables | `Documentacion_General/evaluacion_entregables.md` | Completo | Comparación entre el programa PDF, la retroalimentación y el estado real del repositorio. |
+| General | Enlaces externos | `Evidencias/enlaces.md` | Completo | Registro de enlaces conocidos y del despliegue del dashboard. |
+| General | Evaluación de entregables | `Documentacion_General/evaluacion_entregables.md` | Completo | Comparación entre el programa PDF, la retroalimentación, las aclaraciones del estudiante y el estado real del repositorio. |
 | General | Herramientas de IA declaradas | `Documentacion_General/herramientas_ia_utilizadas.md` | Completo | Registro de Gemini Notebook, ChatGPT, Perplexity, Claude y OpenCode según declaración del estudiante. |
 | General | Programa del diplomado | `Documentacion_General/programa_diplomado.pdf` | Completo | Copia íntegra del PDF aportado; hash SHA256 verificado. |
 
@@ -49,3 +48,5 @@ Estos archivos existen en la carpeta de descargas del equipo y permanecen allí;
 - `Planteamiento_Problema_Orientador*.docx/.pdf` y `Planteamiento_y_Justificacion_Proyecto.*` (versiones previas del planteamiento).
 - `Proyecto_Integrador_Agrometeorologico_Popayan*.pdf` y `Proyecto_Integrador_Agrometeorologico_v5.pdf` (versiones intermedias; se conservó `Final`).
 - Otras plantillas, certificados, instaladores y materiales ajenos al proyecto integrador.
+
+Los cinco DOCX usados como fuentes de bibliografía sí se incorporaron en `Entrega/Modulo_7/referencias/` para que cada referencia tenga un origen auditable dentro del repositorio.

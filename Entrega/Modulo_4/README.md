@@ -2,31 +2,22 @@
 
 ## 1. Objetivo
 
-Documentar los indicadores de impacto y eficiencia del prototipo y preservar la evidencia disponible sobre economía circular, ciclo de vida y huella de carbono, sin estimar valores que no consten en los archivos originales.
+Conservar los indicadores de impacto y eficiencia del prototipo y la evidencia disponible sobre economía circular, ciclo de vida y huella de carbono, sin estimar valores que no consten en los archivos originales.
 
 ## 2. Descripción del contenido
 
-El documento de indicadores consigna cinco KPI: eficiencia en asimilación de nutrientes, intensidad energética del monitoreo, disponibilidad e integridad de datos, índice de alerta fitosanitaria foliar y mantenibilidad/economía circular del hardware. Cada ficha incluye fórmula, unidad y meta proposal; el cuadro resumen añade frecuencia de evaluación. Algunas Variables como línea base, fecha de medición y método de comparación antes/después no están documentadas y se marcan como pendientes.
+El documento de indicadores consigna cinco KPI: eficiencia en asimilación de nutrientes, intensidad energética del monitoreo, disponibilidad e integridad de datos, índice de alerta fitosanitaria foliar y mantenibilidad/economía circular del hardware. Cada ficha incluye fórmula, unidad y meta propuesta; el cuadro resumen añade frecuencia de evaluación. Algunos campos, como línea base, fecha de medición y método de comparación antes/después, no tienen valores consignados en el original y no se completaron.
 
-## 3. Entregables exigidos
+## 3. Entregables
 
-1. Mapa de economía circular.
-2. Inventario simplificado del ciclo de vida.
-3. Estimación de huella de carbono, si existe información suficiente.
-4. Modelo de intervención.
-5. Indicadores KPI (el profesor recomienda entre 3 y 5).
+El estudiante confirmó que los entregables del módulo 4 ya se encuentran en la ubicación en la que fueron entregados. Esta carpeta conserva el documento de los cinco KPI como soporte verificado. No se han elaborado mapas, inventarios ni estimaciones de carbono con datos supuestos.
 
 ## 4. Estructura de carpetas
 
 ```text
 Modulo_4/
 ├── README.md
-├── economia_circular/    Sin evidencia identificada (.gitkeep)
-├── mapa_circular/        Sin evidencia identificada (.gitkeep)
-├── ciclo_vida/           Sin evidencia identificada (.gitkeep)
-├── huella_carbono/       Sin evidencia identificada (.gitkeep)
-├── modelo_intervencion/  Sin evidencia identificada (.gitkeep)
-└── indicadores_KPI/      Documento de los cinco indicadores
+└── indicadores_KPI/    Documento de los cinco indicadores
 ```
 
 ## 5. Relación de archivos existentes
@@ -53,7 +44,7 @@ Los indicadores se asocian a variables del prototipo y al dataset real de INNOVA
 
 ## 7. Enlaces externos
 
-No se registran enlaces externos en la documentación disponible. La referencia a ISO 14040 aparece en el cronograma del anexo del módulo 7, pero no se incorporó un inventario de ciclo de vida con ese método.
+No se registran enlaces externos en la documentación disponible. La referencia a ISO 14040 aparece en el cronograma del anexo del módulo 7 y se recoge también en el documento de bibliografía y citas de ese módulo.
 
 ## 8. Evidencias
 
@@ -61,13 +52,8 @@ El documento de indicadores se conserva íntegro. La serie temporal utilizada co
 
 ## 9. Estado de avance
 
-**Pendiente de evidencias.** Los cinco KPI están documentados; no se encontraron el mapa de economía circular, el inventario de ciclo de vida, la estimación de huella de carbono ni el modelo de intervención como archivos independientes.
+**Completo** según la confirmación del estudiante. El documento de los cinco KPI se conserva sin modificación y no se han inventado valores para los campos sin consignar.
 
-## 10. Actividades pendientes
+## 10. Nota de contenido
 
-- Incorporar el mapa de economía circular.
-- Incorporar el inventario simplificado del ciclo de vida.
-- Si hay información suficiente, documentar la huella de carbono con su método y supuestos; de lo contrario, dejar constancia expresa de que no se estimó.
-- Incorporar el modelo de intervención.
-- Completar, para cada KPI, línea base, meta confirmada, fuente de información, variable medida y método de comparación antes/después.
-- Revisar la coherencia del indicador 1 (basado en pH edáfico) con la instrumentación final descrita en el módulo 3, que no incluye sensor de pH.
+El indicador 1 se apoya en pH edáfico, variable que no figura en la ficha de ocho equipos conservada en el módulo 3. Se mantiene la redacción original de ambos documentos sin inferir una corrección.

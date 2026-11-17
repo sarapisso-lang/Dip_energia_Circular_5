@@ -24,11 +24,12 @@ Nota: el documento `Formulacion_Problema_Proyecto_Integrador-v2.docx` registra u
 - Instrumentación: estación agrometeorológica de ocho equipos, comunicación LoRaWAN (915 MHz) y respaldo en tarjeta SD.
 - Energía: sistema fotovoltaico off-grid con batería LiFePO4.
 - Análisis: serie temporal real de INNOVATOR, EDA y modelos en notebook de Colab.
-- Visualización: dashboard web estático de 11 pestañas construido sobre los datos reales.
+- Visualización: dashboard web estático de 11 pestañas construido sobre los datos reales y desplegado públicamente.
 - Economía circular e indicadores: cinco KPI documentados en el entregable del módulo 4.
 - Asistente local: arquitectura RAG offline documentada en la ficha técnica de los módulos 5 y 6.
+- Bibliografía: fuentes transcritas de los originales y citas sugeridas en `Entrega/Modulo_7/referencias/`.
 
-El alcance detallado, incluido lo que aún no cuenta con evidencia, está en [`Documentacion_General/alcance_proyecto.md`](Documentacion_General/alcance_proyecto.md). La comparación entre lo exigido por el programa y lo que ya está publicado se resume en [`Documentacion_General/evaluacion_entregables.md`](Documentacion_General/evaluacion_entregables.md). Las herramientas de IA declaradas por el estudiante se registran en [`Documentacion_General/herramientas_ia_utilizadas.md`](Documentacion_General/herramientas_ia_utilizadas.md).
+El alcance detallado está en [`Documentacion_General/alcance_proyecto.md`](Documentacion_General/alcance_proyecto.md). La comparación entre lo exigido y lo publicado se resume en [`Documentacion_General/evaluacion_entregables.md`](Documentacion_General/evaluacion_entregables.md). Las herramientas de IA declaradas se registran en [`Documentacion_General/herramientas_ia_utilizadas.md`](Documentacion_General/herramientas_ia_utilizadas.md).
 
 ## Organización del repositorio
 
@@ -38,11 +39,11 @@ Diplomado-energia-circular/
 ├── .gitignore
 ├── Entrega/
 │   ├── Modulo_1/       Diagnóstico y formulación del problema
-│   ├── Modulo_2/       Auditoría energética y análisis de datos
+│   ├── Modulo_2/       Dashboard y despliegue
 │   ├── Modulo_3/       Predimensionamiento energético
 │   ├── Modulo_4/       Economía circular e intervención
 │   ├── Modulo_5_y_6/   Ficha técnica (entrega conjunta)
-│   └── Modulo_7/       Documento final tipo monografía
+│   └── Modulo_7/       Documento final, bibliografía y anexos
 ├── Documentacion_General/
 │   ├── alcance_proyecto.md
 │   ├── inventario_entregables.md
@@ -56,27 +57,25 @@ Diplomado-energia-circular/
     └── enlaces.md
 ```
 
-**Seis carpetas de entrega para siete módulos académicos.** Los módulos 5 y 6 se entregan conjuntamente en `Modulo_5_y_6/`; no existen carpetas `Modulo_5/` ni `Modulo_6/`.
-
-Las carpetas sin evidencia conservan un archivo `.gitkeep` únicamente para mantener la estructura. Ese marcador **no** constituye un entregable.
+**Seis carpetas de entrega para siete módulos académicos.** Los módulos 5 y 6 se entregan conjuntamente en `Modulo_5_y_6/`; no existen carpetas `Modulo_5/` ni `Modulo_6/`. No se conservan carpetas vacías ni marcadores `.gitkeep`.
 
 ## Entregas
 
 | Entrega | Descripción | Estado |
 |---|---|---|
 | Módulo 1 | Diagnóstico y formulación | Pendiente de verificación |
-| Módulo 2 | Auditoría energética y análisis | Pendiente de evidencias |
-| Módulo 3 | Predimensionamiento | Pendiente de verificación |
-| Módulo 4 | Economía circular e intervención | Pendiente de evidencias |
+| Módulo 2 | Dashboard y despliegue | Completo |
+| Módulo 3 | Predimensionamiento | Completo |
+| Módulo 4 | Economía circular e intervención | Completo |
 | Módulos 5 y 6 | Ficha técnica | Completo |
-| Módulo 7 | Monografía | Pendiente de verificación |
+| Módulo 7 | Monografía, bibliografía y anexos | Completo |
 
-Los criterios usados para asignar estos estados están en [`Documentacion_General/estado_avance.md`](Documentacion_General/estado_avance.md).
+Los criterios usados para asignar estos estados están en [`Documentacion_General/estado_avance.md`](Documentacion_General/estado_avance.md). La bibliografía y el mapa de citas están en [`Entrega/Modulo_7/referencias/bibliografia_y_citas.md`](Entrega/Modulo_7/referencias/bibliografia_y_citas.md).
 
 ## Enlaces a los módulos
 
 - [Módulo 1 — Diagnóstico y formulación](Entrega/Modulo_1/README.md)
-- [Módulo 2 — Auditoría energética y análisis](Entrega/Modulo_2/README.md)
+- [Módulo 2 — Dashboard y despliegue](Entrega/Modulo_2/README.md)
 - [Módulo 3 — Predimensionamiento energético](Entrega/Modulo_3/README.md)
 - [Módulo 4 — Economía circular e intervención](Entrega/Modulo_4/README.md)
 - [Módulos 5 y 6 — Ficha técnica](Entrega/Modulo_5_y_6/README.md)
@@ -96,18 +95,19 @@ Identificadas en los archivos originales y en la declaración del estudiante, si
 
 ## Instrucciones de navegación
 
-1. Comience por el [inventario de entregables](Documentacion_General/inventario_entregables.md): indica qué archivo corresponde a cada módulo y qué está pendiente. Para un juicio global, consulte la [evaluación de entregables](Documentacion_General/evaluacion_entregables.md).
-2. Abra el README de la carpeta `Entrega/` que desee revisar; cada uno enumera los archivos reales y las actividades pendientes.
+1. Comience por el [inventario de entregables](Documentacion_General/inventario_entregables.md): indica qué archivo corresponde a cada módulo. Para un juicio global, consulte la [evaluación de entregables](Documentacion_General/evaluacion_entregables.md).
+2. Abra el README de la carpeta `Entrega/` que desee revisar; cada uno enumera los archivos reales y el estado de la entrega.
 3. Para abrir el dashboard desplegado, haga clic en [dashboard-meteorologico-ivory.vercel.app](https://dashboard-meteorologico-ivory.vercel.app/). Para examinarlo sin conexión, abra `Entrega/Modulo_2/dashboard/index.html` en un navegador, o sirva la carpeta con `python -m http.server 8000` (si Python está disponible) y visite `http://localhost:8000`.
 4. El notebook `Entrega/Modulo_2/analisis/web.ipynb` espera el archivo Excel en la ruta de Colab indicada en su primera celda de carga; no se modificó su contenido.
+5. Para revisar las fuentes y las citas sugeridas, abra `Entrega/Modulo_7/referencias/bibliografia_y_citas.md`.
 
 ## Evidencias
 
-- `Evidencias/Transcripcion_Retroalimentacion_Profe.md`: transcripción de la retroalimentación docente que originó la ficha técnica, el cronograma y la publicación en GitHub.
+- `Evidencias/Transcripcion_Retroalimentacion_Profe.md`: transcripción de la retroalimentación docente que originó la ficha técnica, el cronograma, la publicación en GitHub y la recomendación de bibliografía.
 - `Evidencias/capturas/consumo_pc_opencode.png`: captura aportada por el estudiante del consumo de su PC durante el trabajo de OpenCode. Responde al espacio de evidencia del administrador de tareas previsto en la ficha técnica de los módulos 5 y 6 y al soporte de recursos de la ficha de modelos de IA. No se transcriben cifras no verificables.
 
 ![Consumo de la PC durante el trabajo de OpenCode](Evidencias/capturas/consumo_pc_opencode.png)
 
 - `Evidencias/enlaces.md`: registro de enlaces, incluida la URL pública del dashboard desplegado en Vercel.
 
-No se han incorporado credenciales, tokens ni claves API. Los estados y observaciones se actualizarán cuando el estudiante aporte las evidencias faltantes.
+No se han incorporado credenciales, tokens ni claves API. Los estados reflejan la retroalimentación docente y las aclaraciones del estudiante del 17 de noviembre de 2026.
