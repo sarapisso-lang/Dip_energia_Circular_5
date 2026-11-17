@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+nbproject/
+
+# Datos y cachés temporales
+*.tmp
+*.temp
+*.log
+*.cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS (por si el repositorio se clona en otro sistema)
+.DS_Store
+
+# Secretos y credenciales: nunca versionar
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+id_rsa*
+ghp_*
+github_pat_*
+token.txt
+secrets.*
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# No ignorar los marcadores de carpeta .gitkeep
+!.gitkeep

@@ -1,0 +1,11 @@
+# Evitar conversiones de fin de linea en archivos binarios
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.docx binary
+*.xlsx binary
+*.zip binary
+
+# Texto con salto de linea LF en el repositorio
+* text=auto eol=lf

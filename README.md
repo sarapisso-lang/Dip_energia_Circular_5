@@ -1,0 +1,106 @@
+# Proyecto Integrador — Sistema Inteligente de Monitoreo Agrometeorológico (INNOVATOR)
+
+Repositorio de documentación, análisis, desarrollo técnico y evidencias del proyecto integrador del Diplomado en Energía Circular Inteligente 5.0 (Unicomfacauca / SENA Tecnoparque Nodo Popayán / Empresa INNOVATOR).
+
+> **Estado de publicación:** repositorio preparado localmente. La URL de GitHub se incorporará cuando se complete la autenticación y la publicación.
+
+## Descripción
+
+El proyecto aborda la gestión del riesgo climático en cultivos de Popayán (Cauca) mediante un prototipo electrónico de monitoreo agrometeorológico autónomo. Los documentos originales identifican como hallazgo central la descorrelación entre la humedad relativa del aire y la humedad foliar real, medida por la estación INNOVATOR entre junio y octubre de 2024 (2.999 registros horarios).
+
+La documentación conserva los formatos originales de los entregables (DOCX, PDF, XLSX, IPYNB y HTML/JS) y no sustituye datos, cálculos ni conclusiones por ejemplos ficticios.
+
+## Objetivo general
+
+Texto consignado en el documento `Entrega/Modulo_1/documentos/Modulo1_Contexto_Territorial_Matriz_Normativa.docx`:
+
+> Desarrollar un prototipo electrónico funcional para un sistema inteligente de monitoreo de variables hidrometeorológicas para la gestión del riesgo climático en sistemas agrícolas.
+
+Nota: el documento `Formulacion_Problema_Proyecto_Integrador-v2.docx` registra una redacción ampliada que incluye variables edáficas (temperatura y pH del suelo). Ambas versiones se conservan; su vigencia requiere validación académica (ver `Documentacion_General/estado_avance.md`).
+
+## Alcance
+
+- Delimitación territorial: Popayán, Cauca; cultivos de café especial, frutales y hortalizas.
+- Instrumentación: estación agrometeorológica de ocho equipos, comunicación LoRaWAN (915 MHz) y respaldo en tarjeta SD.
+- Energía: sistema fotovoltaico off-grid con batería LiFePO4.
+- Análisis: serie temporal real de INNOVATOR, EDA y modelos en notebook de Colab.
+- Visualización: dashboard web estático de 11 pestañas construido sobre los datos reales.
+- Economía circular e indicadores: cinco KPI documentados en el entregable del módulo 4.
+- Asistente local: arquitectura RAG offline documentada en la ficha técnica de los módulos 5 y 6.
+
+El alcance detallado, incluido lo que aún no cuenta con evidencia, está en [`Documentacion_General/alcance_proyecto.md`](Documentacion_General/alcance_proyecto.md).
+
+## Organización del repositorio
+
+```text
+proyecto-integrador-diplomado/
+├── README.md
+├── .gitignore
+├── Entrega/
+│   ├── Modulo_1/       Diagnóstico y formulación del problema
+│   ├── Modulo_2/       Auditoría energética y análisis de datos
+│   ├── Modulo_3/       Predimensionamiento energético
+│   ├── Modulo_4/       Economía circular e intervención
+│   ├── Modulo_5_y_6/   Ficha técnica (entrega conjunta)
+│   └── Modulo_7/       Documento final tipo monografía
+├── Documentacion_General/
+│   ├── alcance_proyecto.md
+│   ├── inventario_entregables.md
+│   └── estado_avance.md
+└── Evidencias/
+    ├── capturas/
+    ├── Transcripcion_Retroalimentacion_Profe.md
+    └── enlaces.md
+```
+
+**Seis carpetas de entrega para siete módulos académicos.** Los módulos 5 y 6 se entregan conjuntamente en `Modulo_5_y_6/`; no existen carpetas `Modulo_5/` ni `Modulo_6/`.
+
+Las carpetas sin evidencia conservan un archivo `.gitkeep` únicamente para mantener la estructura. Ese marcador **no** constituye un entregable.
+
+## Entregas
+
+| Entrega | Descripción | Estado |
+|---|---|---|
+| Módulo 1 | Diagnóstico y formulación | Pendiente de verificación |
+| Módulo 2 | Auditoría energética y análisis | Pendiente de evidencias |
+| Módulo 3 | Predimensionamiento | Pendiente de verificación |
+| Módulo 4 | Economía circular e intervención | Pendiente de evidencias |
+| Módulos 5 y 6 | Ficha técnica | Completo |
+| Módulo 7 | Monografía | Pendiente de verificación |
+
+Los criterios usados para asignar estos estados están en [`Documentacion_General/estado_avance.md`](Documentacion_General/estado_avance.md).
+
+## Enlaces a los módulos
+
+- [Módulo 1 — Diagnóstico y formulación](Entrega/Modulo_1/README.md)
+- [Módulo 2 — Auditoría energética y análisis](Entrega/Modulo_2/README.md)
+- [Módulo 3 — Predimensionamiento energético](Entrega/Modulo_3/README.md)
+- [Módulo 4 — Economía circular e intervención](Entrega/Modulo_4/README.md)
+- [Módulos 5 y 6 — Ficha técnica](Entrega/Modulo_5_y_6/README.md)
+- [Módulo 7 — Monografía](Entrega/Modulo_7/README.md)
+
+## Tecnologías y herramientas identificadas
+
+Identificadas en los archivos originales, sin ampliación:
+
+- **Documentación:** DOCX, PDF, Markdown.
+- **Datos:** XLSX (dataset INNOVATOR, laboratorio P4.1, ficha de modelos de IA y cronograma).
+- **Análisis:** notebook de Google Colab (`web.ipynb`) con pandas, numpy, scikit-learn, TensorFlow/Keras, seaborn y Plotly.
+- **Visualización:** HTML, CSS y JavaScript vanilla, con Plotly embebido; configuración de despliegue en Vercel (`vercel.json`). No se encontró documentada una URL pública funcional.
+- **IA local:** AnythingLLM Desktop y Ollama, modelos Llama-3-8B-Instruct / Mistral-7B cuantizados, embeddings `nomic-embed-text`, bases vectoriales LanceDB / ChromaDB (según la ficha técnica).
+- **Control de versiones:** Git. Rama principal `main`.
+
+## Instrucciones de navegación
+
+1. Comience por el [inventario de entregables](Documentacion_General/inventario_entregables.md): indica qué archivo corresponde a cada módulo y qué está pendiente.
+2. Abra el README de la carpeta `Entrega/` que desee revisar; cada uno enumera los archivos reales y las actividades pendientes.
+3. Para examinar el dashboard sin conexión, abra `Entrega/Modulo_2/dashboard/index.html` en un navegador, o sirva la carpeta con `python -m http.server 8000` (si Python está disponible) y visite `http://localhost:8000`.
+4. El notebook `Entrega/Modulo_2/analisis/web.ipynb` espera el archivo Excel en la ruta de Colab indicada en su primera celda de carga; no se modificó su contenido.
+
+## Evidencias
+
+- `Evidencias/Transcripcion_Retroalimentacion_Profe.md`: transcripción de la retroalimentación docente que originó la ficha técnica, el cronograma y la publicación en GitHub.
+- `Evidencias/capturas/`: espacio reservado para capturas de pantalla (por ejemplo, consumo de CPU/RAM/GPU mencionado en la ficha técnica). Actualmente sin archivos.
+- `Evidencias/enlaces.md`: registro de enlaces y de la URL del dashboard, cuando esté disponible.
+
+No se han incorporado credenciales, tokens ni claves API. Los estados y observaciones se actualizarán cuando el estudiante aporte las evidencias faltantes.
