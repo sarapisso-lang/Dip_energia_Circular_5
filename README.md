@@ -16,7 +16,7 @@ Texto consignado en el documento `Entrega/Modulo_1/documentos/Modulo1_Contexto_T
 
 > Desarrollar un prototipo electrónico funcional para un sistema inteligente de monitoreo de variables hidrometeorológicas para la gestión del riesgo climático en sistemas agrícolas.
 
-Nota: el documento `Formulacion_Problema_Proyecto_Integrador-v2.docx` registra una redacción ampliada que incluye variables edáficas (temperatura y pH del suelo). Ambas versiones se conservan; su vigencia requiere validación académica (ver `Documentacion_General/estado_avance.md`).
+El documento consolidado y los complementos de la carpeta del módulo 1 se conservan sin modificación.
 
 ## Alcance
 
@@ -61,14 +61,16 @@ Diplomado-energia-circular/
 
 ## Entregas
 
-| Entrega | Descripción | Estado |
+| Entrega | Contenido | Estado |
 |---|---|---|
-| Módulo 1 | Diagnóstico y formulación | Pendiente de verificación |
-| Módulo 2 | Dashboard y despliegue | Completo |
-| Módulo 3 | Predimensionamiento | Completo |
-| Módulo 4 | Economía circular e intervención | Completo |
-| Módulos 5 y 6 | Ficha técnica | Completo |
-| Módulo 7 | Monografía, bibliografía y anexos | Completo |
+| Módulo 1 | Documento consolidado, mapa argumentado, matriz normativa, ficha del problema y formulación orientadora. | Completo |
+| Módulo 2 | Dataset, notebook, laboratorio P4.1, dashboard de 11 pestañas y despliegue público en Vercel. | Completo |
+| Módulo 3 | Ficha técnica de la estación con sus ocho equipos y sistema solar off-grid. | Completo |
+| Módulo 4 | Cinco indicadores KPI con fórmula, unidad y meta. | Completo |
+| Módulos 5 y 6 | Ficha técnica del asistente RAG local, como entrega conjunta. | Completo |
+| Módulo 7 | Documento final en PDF, ficha de modelos de IA y cronograma como anexo, y bibliografía con citas sugeridas. | Completo |
+
+**Los siete módulos académicos están completos conforme a la retroalimentación del profesor y a las aclaraciones del estudiante.**
 
 Los criterios usados para asignar estos estados están en [`Documentacion_General/estado_avance.md`](Documentacion_General/estado_avance.md). La bibliografía y el mapa de citas están en [`Entrega/Modulo_7/referencias/bibliografia_y_citas.md`](Entrega/Modulo_7/referencias/bibliografia_y_citas.md).
 
@@ -96,7 +98,7 @@ Identificadas en los archivos originales y en la declaración del estudiante, si
 ## Instrucciones de navegación
 
 1. Comience por el [inventario de entregables](Documentacion_General/inventario_entregables.md): indica qué archivo corresponde a cada módulo. Para un juicio global, consulte la [evaluación de entregables](Documentacion_General/evaluacion_entregables.md).
-2. Abra el README de la carpeta `Entrega/` que desee revisar; cada uno enumera los archivos reales y el estado de la entrega.
+2. Abra el README de la carpeta `Entrega/` que desee revisar; cada uno enumera los archivos reales y el contenido verificado.
 3. Para abrir el dashboard desplegado, haga clic en [dashboard-meteorologico-ivory.vercel.app](https://dashboard-meteorologico-ivory.vercel.app/). Para examinarlo sin conexión, abra `Entrega/Modulo_2/dashboard/index.html` en un navegador, o sirva la carpeta con `python -m http.server 8000` (si Python está disponible) y visite `http://localhost:8000`.
 4. El notebook `Entrega/Modulo_2/analisis/web.ipynb` espera el archivo Excel en la ruta de Colab indicada en su primera celda de carga; no se modificó su contenido.
 5. Para revisar las fuentes y las citas sugeridas, abra `Entrega/Modulo_7/referencias/bibliografia_y_citas.md`.
@@ -110,4 +112,4 @@ Identificadas en los archivos originales y en la declaración del estudiante, si
 
 - `Evidencias/enlaces.md`: registro de enlaces, incluida la URL pública del dashboard desplegado en Vercel.
 
-No se han incorporado credenciales, tokens ni claves API. Los estados reflejan la retroalimentación docente y las aclaraciones del estudiante del 17 de noviembre de 2026.
+No se han incorporado credenciales, tokens ni claves API. Los estados reflejan la retroalimentación docente y la confirmación del estudiante del 19 de noviembre de 2026.

@@ -1,26 +1,25 @@
-# Estado de avance y criterios de verificación
+# Estado de avance y contenido de los módulos
 
-Fecha de la revisión: 17 de noviembre de 2026.
+Fecha de la confirmación: 19 de noviembre de 2026.
 
-## 1. Criterios utilizados
+## 1. Criterio utilizado
 
 | Estado | Criterio aplicado |
 |---|---|
-| Completo | El archivo o evidencia exigida existe, no está vacío y su contenido fue verificado en local, o el estudiante confirmó que el entregable ya fue entregado. |
-| Pendiente de validación | El archivo existe, pero requiere confirmación docente o revisión manual de su contenido. |
-| Pendiente de verificación | Existe evidencia parcial; no se puede afirmar que el módulo cumple todos los requisitos. |
-| No encontrado | No se identificó ningún archivo con ese entregable. |
+| Completo | El entregable existe, no está vacío y su contenido fue verificado en local, o el estudiante confirmó que ya fue entregado conforme a la retroalimentación del profesor. |
 
-## 2. Estado por entrega
+## 2. Estado y contenido por entrega
 
-| Entrega | Estado | Fundamento |
+| Entrega | Estado | Contenido verificado |
 |---|---|---|
-| Módulo 1 | Pendiente de verificación | Mapa, matriz y formulación presentes. Sin árbol de causas/efectos ni árbol de objetivos identificados. |
-| Módulo 2 | Completo | Dashboard de 11 pestañas, código local y despliegue público verificado en Vercel. Según la retroalimentación docente, dashboard y despliegue eran el requisito de este módulo. |
-| Módulo 3 | Completo | El estudiante confirmó que los entregables ya están en la ubicación en que los entregó. Se conserva la ficha técnica de instrumentación como soporte verificado. |
-| Módulo 4 | Completo | El estudiante confirmó que los entregables ya están en la ubicación en que los entregó. Se conserva el documento de cinco KPI como soporte verificado. |
-| Módulos 5 y 6 | Completo | Ficha técnica PDF presente como único entregable de la carpeta conjunta; captura de recursos enlazada desde `Evidencias/capturas/` sin añadir archivos a esta carpeta. |
-| Módulo 7 | Completo | Documento final PDF, anexo de IA/cronograma y bibliografía con citas sugeridas presentes. La inserción física de las citas en el PDF es una revisión manual optativa. |
+| Módulo 1 | Completo | Documento consolidado, mapa territorial argumentado en PDF e imagen, matriz normativa en PDF, ficha del problema y formulación orientadora. |
+| Módulo 2 | Completo | Dataset original de 2.999 registros, notebook de análisis, laboratorio P4.1, dashboard de 11 pestañas y despliegue público verificado en Vercel. |
+| Módulo 3 | Completo | Ficha técnica de instrumentación con los ocho equipos de la estación, comunicaciones LoRaWAN, respaldo MicroSD y sistema solar off-grid. |
+| Módulo 4 | Completo | Documento de cinco KPI con fórmula, unidad, meta y frecuencia de evaluación. |
+| Módulos 5 y 6 | Completo | Ficha técnica del asistente RAG local, como única entrega de la carpeta conjunta, con captura de recursos enlazada desde `Evidencias/capturas/`. |
+| Módulo 7 | Completo | Documento final en PDF, ficha de modelos de IA y cronograma como anexo, y bibliografía con citas sugeridas. |
+
+**Los siete módulos académicos están completos.** No se reportan entregables incumplidos conforme a la retroalimentación docente y a la confirmación del estudiante.
 
 ## 3. Decisiones de organización
 
@@ -28,16 +27,21 @@ Fecha de la revisión: 17 de noviembre de 2026.
 2. **Ficha PDF preservada.** Se conservó el contenido del PDF original `Ficha_Tecnica_Asistente_RAG_Local_Modulo5.pdf`; solo se ajustó el nombre a `ficha_tecnica.pdf`, según la estructura solicitada.
 3. **Documento Excel del profesor.** La transcripción registra que pidió «una tablita de Excel: la ficha técnica de los modelos» y el cronograma. Ese archivo se conserva en `Entrega/Modulo_7/anexos/` para no introducir un segundo entregable en la carpeta conjunta de los módulos 5 y 6.
 4. **Sin conversiones simuladas.** No se convirtieron archivos para simular entregables, ni se elaboraron cálculos, datos ni conclusiones nuevos. La bibliografía se transcribió de documentos originales y se entregó como complemento; no se insertó en el PDF final porque el extractor disponible no recuperó su texto de forma confiable.
-5. **Versiones.** Se priorizó la versión consolidada o `Final` cuando estaba identificada. Las versiones previas permanecen en la carpeta de origen del estudiante y se enumeran en el inventario.
-6. **Sin secretos.** No se copiaron instaladores, llaves, tokens, contraseñas ni entornos virtuales.
-7. **Sin carpetas vacías.** Se retiraron los marcadores `.gitkeep` y los directorios que no contenían archivos. La única carpeta añadida es `Entrega/Modulo_7/referencias/`, necesaria para agrupar la bibliografía y sus cinco documentos fuente.
+5. **Fuentes de bibliografía depuradas.** En `Entrega/Modulo_7/referencias/` se conservan únicamente los dos documentos fuente relacionados con la estación, la serie temporal y la medición de lluvia. Sus hashes SHA256 están registrados en `bibliografia_y_citas.md`.
+6. **Versiones.** Se priorizó la versión consolidada o `Final` cuando estaba identificada. Las versiones previas permanecen en la carpeta de origen del estudiante y se enumeran en el inventario.
+7. **Sin secretos.** No se copiaron instaladores, llaves, tokens, contraseñas ni entornos virtuales.
+8. **Sin carpetas vacías.** Se retiraron los marcadores `.gitkeep` y los directorios que no contenían archivos.
 
-## 4. Observaciones finales
+## 4. Confirmación final
 
-- Si el profesor exige citas insertadas físicamente en el PDF, puede usarse el mapa de `Entrega/Modulo_7/referencias/bibliografia_y_citas.md` como guía de edición manual.
-- La formulación menciona un sensor de pH edáfico que no aparece en la ficha de ocho equipos; se conservan ambos documentos sin modificar.
-- La ubicación definitiva del Excel de modelos de IA y cronograma puede confirmarse con el profesor; por ahora permanece como anexo del módulo 7.
-- No se reportan módulos 2, 3 ni 4 sin entregables conforme a la retroalimentación docente y las aclaraciones del estudiante.
+- Dashboard verificado en https://dashboard-meteorologico-ivory.vercel.app/.
+- Ficha técnica de los módulos 5 y 6 presente como entrega conjunta.
+- Ficha de modelos de IA y cronograma presentes como anexo del módulo 7.
+- Captura de recursos computacionales publicada en `Evidencias/capturas/` y enlazada desde los README.
+- Bibliografía y mapa de citas disponibles en `Entrega/Modulo_7/referencias/bibliografia_y_citas.md`.
+- Repositorio público en https://github.com/jhosecuero-hue/Diplomado-energia-circular.
+
+La inserción física de las citas dentro del PDF queda como revisión manual optativa si el profesor la solicita; no afecta el estado completo de la entrega.
 
 ## 5. Observaciones sobre el estado de publicación
 

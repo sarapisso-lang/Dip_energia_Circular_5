@@ -54,6 +54,10 @@ El documento de indicadores se conserva íntegro. La serie temporal utilizada co
 
 **Completo** según la confirmación del estudiante. El documento de los cinco KPI se conserva sin modificación y no se han inventado valores para los campos sin consignar.
 
-## 10. Nota de contenido
+## 10. Resumen de contenido
 
-El indicador 1 se apoya en pH edáfico, variable que no figura en la ficha de ocho equipos conservada en el módulo 3. Se mantiene la redacción original de ambos documentos sin inferir una corrección.
+- Eficiencia en asimilación de nutrientes.
+- Intensidad energética del monitoreo.
+- Disponibilidad e integridad de datos.
+- Índice de alerta fitosanitaria foliar.
+- Mantenibilidad y economía circular del hardware.

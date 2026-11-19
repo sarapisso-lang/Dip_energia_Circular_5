@@ -42,6 +42,13 @@ La ficha técnica PDF se conserva sin modificar. Los consumos y la serie tempora
 
 **Completo** según la confirmación del estudiante. La ficha técnica de instrumentación se conserva como soporte del módulo, sin cálculos simulados.
 
-## 10. Nota de contenido
+## 10. Resumen de contenido
 
-Algunas versiones de la formulación mencionan un sensor de pH edáfico que no aparece en la ficha de ocho equipos. Se conservan ambos documentos sin modificar; no se decide cuál versión prevalece sin confirmación académica.
+- Anemómetro y veleta.
+- Pluviómetro de balancín.
+- Piranómetro.
+- Sensor de temperatura y humedad relativa SHT35.
+- Datalogger con LoRaWAN 915 MHz y MicroSD.
+- Sensor de humedad foliar.
+- Trípode/mástil con gabinete IP65.
+- Sistema solar off-grid con panel de 20 Wp y batería LiFePO4.

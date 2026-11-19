@@ -61,10 +61,11 @@ El documento complementario solicitado por el profesor — ficha de modelos de I
 
 ## 9. Estado de avance
 
-**Completo**, respecto del único entregable definido para esta carpeta. Queda pendiente la validación docente de su contenido.
+**Completo.** La carpeta contiene únicamente la ficha técnica del asistente RAG, según la entrega conjunta confirmada por el estudiante. La ficha de modelos de IA y el cronograma se conservan como anexo del módulo 7, y la captura de recursos se publica en `Evidencias/capturas/` sin añadir un segundo archivo a esta carpeta.
 
-## 10. Actividades pendientes
+## 10. Resumen de contenido
 
-- Confirmar con el profesor que la ficha PDF del asistente RAG es el único archivo esperado en la carpeta conjunta, o que debe complementarse con el documento Excel de modelos de IA y cronograma.
-- Confirmar con el profesor si la captura enlazada en `Evidencias/capturas/consumo_pc_opencode.png` es suficiente como soporte de las métricas de CPU, RAM y VRAM, o si debe insertarse dentro del PDF.
-- Verificar que las versiones de herramientas consignadas en la ficha coincidan con el entorno final utilizado.
+- Arquitectura del asistente RAG local: inferencia, modelo de lenguaje, embeddings, base vectorial y fragmentación.
+- Corpus documental indexado: normativa colombiana, dataset INNOVATOR y memoria técnica del prototipo.
+- Instrucción base del sistema y banco de pruebas de seis casos de inferencia.
+- Espacio de evidencia de recursos computacionales, soportado por la captura publicada en `Evidencias/capturas/`.

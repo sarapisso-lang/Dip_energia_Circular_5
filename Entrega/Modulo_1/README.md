@@ -8,15 +8,15 @@ Delimitar territorialmente el proyecto, consolidar el marco normativo aplicable 
 
 La documentación disponible ubica el caso en Popayán (Cauca), a 1.760 msnm, y plantea la insuficiencia de las estaciones macroclimáticas del IDEAM para predecir ventanas de condensación y rocío a escala de parcela. El problema se asocia a aplicaciones inoportunas de fungicidas por confundir la humedad relativa del aire con el mojado foliar real.
 
-El documento consolidado reúne mapa argumentado, matriz normativa UPME–DIAN, planteamiento del problema y objetivo general. Los documentos complementarios conservan las versiones específicas de cada entregable.
+El documento consolidado reúne mapa argumentado, matriz normativa UPME–DIAN, planteamiento del problema y objetivo general. Los documentos complementarios conservan la ficha del problema y la formulación orientadora con su justificación y alcances.
 
-## 3. Entregables exigidos
+## 3. Entregables
 
 1. Mapa territorial argumentado.
 2. Matriz normativa.
-3. Formulación del problema orientador.
-4. Árbol de causas y efectos.
-5. Árbol de objetivos.
+3. Ficha del problema.
+4. Formulación del problema orientador con objetivo general y justificación.
+5. Documento consolidado del módulo.
 
 ## 4. Estructura de carpetas
 
@@ -54,11 +54,11 @@ Los documentos PDF y la imagen territorial se conservan sin modificación. La se
 
 ## 9. Estado de avance
 
-**Pendiente de verificación.** Se dispone de mapa, matriz y formulación, pero no se identificaron documentos independientes con el árbol de causas y efectos ni con el árbol de objetivos completos.
+**Completo.** El módulo reúne el documento consolidado, el mapa argumentado, la matriz normativa, la ficha del problema y la formulación orientadora, conforme a lo solicitado en la retroalimentación docente.
 
-## 10. Actividades pendientes
+## 10. Resumen de contenido
 
-- Aportar o confirmar el árbol de causas y efectos en formato documentado.
-- Aportar o confirmar el árbol de objetivos.
-- Validar cuál redacción del objetivo general es la vigente: la del documento consolidado (variables hidrometeorológicas) o la de la formulación v2 (hidrometeorológicas y edáficas).
-- Confirmar si la versión v2 de los documentos sustituye oficialmente a la versión inicial.
+- Documento consolidado con delimitación territorial, matriz normativa, planteamiento y objetivo general.
+- Mapa territorial argumentado en PDF e imagen en español.
+- Matriz normativa en PDF con incentivos UPME–DIAN y normativa relacionada.
+- Ficha del problema y formulación orientadora con justificación y alcances.

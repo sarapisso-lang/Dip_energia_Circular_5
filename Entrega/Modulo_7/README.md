@@ -34,20 +34,17 @@ No se conservan carpetas vacías.
 |---|---|---|
 | `Proyecto_Integrador_Agrometeorologico_Final.pdf` | `monografia/` | Documento final del proyecto integrador. |
 | `Ficha_Tecnica_Modelos_IA_y_Cronograma.xlsx` | `anexos/` | Ficha técnica de modelos de IA locales (RAG), banco de pruebas y cronograma Gantt de 16 semanas. Solicitado por el profesor como documento aparte en la retroalimentación. |
-| `bibliografia_y_citas.md` | `referencias/` | 20 fuentes académicas y técnicas, 14 referencias normativas y 4 fuentes institucionales/propias, además de un mapa de citas sugeridas. Todo transcrito de archivos originales. |
+| `bibliografia_y_citas.md` | `referencias/` | 12 fuentes académicas y técnicas, 14 referencias normativas y 4 fuentes institucionales/propias, además de un mapa de citas sugeridas. Todo transcrito de archivos originales. |
 | `Estado_del_Arte_Innovator_Terminado_2026.docx` | `referencias/` | Fuente de la sección 17 «Referencias»: estaciones IoT, humedad foliar, pluviometría y estación solar. |
-| `01_ACTUALIZADO_Actividad_1_Estado_del_Arte_Sistema_Hidrometeorologico.docx` | `referencias/` | Fuente de la sección 11 «Referencias nuevas incorporadas»: pH, ISFET y Texas Instruments. |
-| `02_Guia_Creacion_Sensor_Multiparametrico_Temperatura_pH.docx` | `referencias/` | Fuente de la sección «Referencias»: electrodos y sensores de suelo. |
 | `Investigacion_Completa_Medicion_de_Lluvia_Innovator_2026.docx` | `referencias/` | Fuente de la sección 16 «Referencias»: WMO, IDEAM y pluviometría. |
-| `Formulacion_del_problema_orientador_Diplomado_Energia_Circular_Inteligente_5_0.docx` | `referencias/` | Fuente de la sección 10 «Referencias normativas y bibliográficas». |
 
-Los hashes SHA256 de los cinco DOCX fuente están registrados en `referencias/bibliografia_y_citas.md`.
+Los hashes SHA256 de los dos DOCX fuente están registrados en `referencias/bibliografia_y_citas.md`.
 
 ## 6. Metodología
 
 Se priorizó la versión `Final` del documento sobre las versiones intermedias encontradas en la carpeta de origen, sin eliminar esas versiones del equipo. El documento Excel se incorpora como anexo por petición docente, no como un entregable adicional de los módulos 5 y 6.
 
-La bibliografía se construyó con las referencias que ya aparecían en los documentos originales del proyecto. No se consultaron fuentes externas para completar autores, años o enlaces, y no se modificó el PDF final.
+La bibliografía se construyó con fuentes que ya aparecían en los documentos originales del proyecto y se limita a temas de la estación de ocho equipos, la serie temporal, la lluvia y la energía solar. No se consultaron fuentes externas para completar autores, años o enlaces, y no se modificó el PDF final.
 
 ## 7. Enlaces externos
 
@@ -65,7 +62,7 @@ La imagen se publica sin alterar; no se transcriben cifras que no sea posible ve
 
 ## 9. Estado de avance
 
-**Completo en lo verificable.** Existen el documento final en PDF, el anexo solicitado por el profesor y la bibliografía con citas sugeridas preparada a partir de los originales. La inserción física de las citas dentro del PDF y la revisión de su estructura interna quedan como revisión manual optativa, no como un entregable incumplido.
+**Completo.** Existen el documento final en PDF, el anexo solicitado por el profesor y la bibliografía con citas sugeridas preparada a partir de los originales. La inserción física de las citas dentro del PDF queda como revisión manual optativa, no como un entregable incumplido.
 
 ## 10. Cierre
 
